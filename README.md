@@ -122,26 +122,13 @@ Notebook eksperimen terdiri dari beberapa tahapan:
 14. Penyimpanan hasil eksperimen
 15. Ringkasan hasil
 
-## Reproducibility
-
-Eksperimen dirancang agar dapat dijalankan dari awal hingga akhir melalui Google Colab.
-
-Hal yang perlu diperhatikan:
-
-* Jalankan notebook secara berurutan dari cell pertama.
-* Pastikan GPU Google Colab tersedia.
-* Dataset dapat diunduh secara otomatis melalui konfigurasi dataset.
-* Random seed ditetapkan pada **42**.
-* Hasil evaluasi disimpan sebagai output notebook dan file CSV.
-* Model hasil training disimpan pada direktori eksperimen di lingkungan Colab.
 
 ## Visualisasi
 
 Laporan menggunakan tiga visualisasi utama:
 
 1. **Contoh citra VisDrone2019-DET** untuk menunjukkan karakteristik objek kecil dan padat.
-2. **Grafik perbandingan mAP@0.5:0.95 berdasarkan ukuran objek** antara baseline 640×640 dan high-resolution 1280×1280.
-3. **Perbandingan failure case** antara baseline 640×640 dan high-resolution 1280×1280.
+2. **Perbandingan failure case** antara baseline 640×640 dan high-resolution 1280×1280.
 
 ## Paper Referensi Utama
 
